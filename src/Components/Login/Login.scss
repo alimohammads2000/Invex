@@ -1,0 +1,100 @@
+.login-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    .logo-wrapper {
+        padding: 20px 35px;
+    }
+
+    .login-form-wrapper {
+        width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    /* padding-top: 200px; */
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 1px 2px #60617029;
+    box-shadow: 0 1px 2px #60617029;
+    padding: 44px;
+
+        form {
+            h2 {
+                font-size: 24px;
+                margin-bottom: 15px;
+            }
+
+            .field-wrapper {
+                margin-bottom: 15px;
+
+                label {
+                    display: block;
+                    margin-bottom: 6px;
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+
+                input {
+                    width: 100%;
+                    padding: 10px 5px;
+                    border-radius: 8px;
+                    border: 2px solid #d0d0d0;
+                    box-shadow: none;
+
+                    &:focus-visible {
+                        border-color: #a3a3a3;
+                        outline: 0;
+                    }
+                }
+                input[type='text']{
+                    letter-spacing: 3px;
+                }
+
+                .pass-wrapper {
+                    position: relative;
+
+                    img {
+                        position: absolute;
+                        width: 25px;
+                        height: 25px;
+                        right: 6px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
+                }
+            }
+
+            button {
+                width: 100%;
+                padding: 12px;
+                background: #30cdca;
+                border: 0;
+                color: #FFFFFF;
+                font-size: 16px;
+                text-transform: capitalize;
+                border-radius: 8px;
+                margin-top: 15px;
+
+                &:hover {
+                    background: #1fb4b2;
+                }
+            }
+        }
+
+        .heading-wrapper {
+            margin-bottom: 15px;
+
+            h2 {
+                font-size: 26px;
+                font-weight: 600;
+                margin-bottom: 2px;
+            }
+
+            p {
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+    }
+}
