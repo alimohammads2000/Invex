@@ -72,7 +72,7 @@ const Steps = () => {
                     <div className="h-[1px] self-stretch mx-16 my-2 bg-[#6135FB] block xl:hidden"></div>
                     <div className="px-8 py-4 text-center w-[23rem]">
                         <p className="text-[1.25rem] md:text-[1.75rem] font-bold leading-[1.875rem] md:leading-[2.25rem]">Minimal fee</p>
-                        <p className="text-[1.125rem] md:text-[1.375rem] font-normal leadint-[1.625rem] md:leading-[1.875rem]">One-time markup / platform fee</p>
+                        <p className="text-[1.125rem] md:text-[1.375rem] font-normal leadint-[1.625rem] md:leading-[1.875rem]">Markup / Patform fee</p>
                     </div>
                     <div className="w-[1px] self-stretch my-4 bg-[#6135FB] hidden xl:block"></div>
                     <div className="h-[1px] self-stretch mx-16 my-2 bg-[#6135FB] block xl:hidden"></div>
