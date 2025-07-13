@@ -9,6 +9,8 @@ import Awards from './Awards';
 import CaseStudies from './CaseStudies';
 import Contact from './Contact';
 import Home from './Home';
+import PrivacyPolicy from './PrivacyPolicy'
+import TermsAndConditions from './TermsCondition'
 
 import './App.css';
 
@@ -26,9 +28,10 @@ function App() {
          <Route path='/login' element={<LoginPage />} />
          <Route path='/about' element={<About />} />
         <Route path='/' element={<Home />} />
-        <Route path='/awards' element={<Awards />} />
+        <Route path='/privacy-policy' element={<PrivacyPolicy />} />
         <Route path='/case-studies' element={<CaseStudies />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/terms-conditions' element={<TermsAndConditions />} />
 
       </Routes>
 
