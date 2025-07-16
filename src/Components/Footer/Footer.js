@@ -12,16 +12,16 @@ import './Footer.scss'
 const Footer = () => {
     return (
         <>
-            <footer className="bg-linear pt-8 pb-8 px-4 md:pt-32 md:pb-10">
+            <footer className="bg-[#151f29] pt-8 pb-8 px-4 md:pt-32 md:pb-10">
                 <div className="container mx-auto">
                     <div className="flex flex-col justify-center md:gap-5 items-center md:flex-row md:items-start md:items-center md:justify-between">
                         <img src={Logo} className="w-[180px] h-auto" alt="Invex Logo" />
                         <div
                             className="flex flex-col w-full md:w-auto md:grid md:grid-cols-2 gap-3 items-center text-white font-bold leading-[16px] md:leading-4 text-sm md:text-lg tracking-tight mt-8 md:mt-0">
-                            <a href="/">Home</a>
-                            <a href="/about">About Us</a>
-                            <a href="/privacy-policy">Privacy Policy</a>
-                            <a href="/terms-conditions">Terms & Conditions</a>
+                            <Link to="/">Home</Link>
+                            <Link to="/about">About Us</Link>
+                            <Link to="/privacy-policy">Privacy Policy</Link>
+                            <Link to="/terms-conditions">Terms & Conditions</Link>
                         </div>
                     </div>
                     <div className="flex mt-8 xl:mt-16 justify-center md:justify-start"><a href="https://www.linkedin.com/company/Invex -ai/" target="_blank">
